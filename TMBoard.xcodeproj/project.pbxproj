@@ -19,6 +19,10 @@
 		676F435C264E124900BCC21E /* iLikeDudesAlot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 676F435B264E124900BCC21E /* iLikeDudesAlot.mp3 */; };
 		6783CB4E265AD518001A4CAE /* squat680.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6783CB4D265AD518001A4CAE /* squat680.mp3 */; };
 		6783CB56265AD698001A4CAE /* ewDudeWtf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6783CB55265AD698001A4CAE /* ewDudeWtf.mp3 */; };
+		6783CB5B265B173B001A4CAE /* Tourner.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6783CB5A265B173B001A4CAE /* Tourner.ttf */; };
+		6783CB60265B1C0D001A4CAE /* MADE Evolve Sans Light (PERSONAL USE).otf in Resources */ = {isa = PBXBuildFile; fileRef = 6783CB5F265B1C0D001A4CAE /* MADE Evolve Sans Light (PERSONAL USE).otf */; };
+		6783CB65265B1C6C001A4CAE /* OriginTech personal use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6783CB64265B1C6C001A4CAE /* OriginTech personal use.ttf */; };
+		6783CB6A265B1D45001A4CAE /* Aquino-Demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6783CB69265B1D45001A4CAE /* Aquino-Demo.ttf */; };
 		67932FA3264A2D7700AB40EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67932FA2264A2D7700AB40EA /* AppDelegate.swift */; };
 		67932FA5264A2D7700AB40EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67932FA4264A2D7700AB40EA /* SceneDelegate.swift */; };
 		67932FA7264A2D7700AB40EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67932FA6264A2D7700AB40EA /* ViewController.swift */; };
@@ -59,6 +63,12 @@
 		676F435B264E124900BCC21E /* iLikeDudesAlot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = iLikeDudesAlot.mp3; path = ../../../../Downloads/iLikeDudesAlot.mp3; sourceTree = "<group>"; };
 		6783CB4D265AD518001A4CAE /* squat680.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = squat680.mp3; sourceTree = "<group>"; };
 		6783CB55265AD698001A4CAE /* ewDudeWtf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ewDudeWtf.mp3; sourceTree = "<group>"; };
+		6783CB5A265B173B001A4CAE /* Tourner.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tourner.ttf; sourceTree = "<group>"; };
+		6783CB5F265B1C0D001A4CAE /* MADE Evolve Sans Light (PERSONAL USE).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE Evolve Sans Light (PERSONAL USE).otf"; sourceTree = "<group>"; };
+		6783CB64265B1C6C001A4CAE /* OriginTech personal use.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OriginTech personal use.ttf"; sourceTree = "<group>"; };
+		6783CB69265B1D45001A4CAE /* Aquino-Demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aquino-Demo.ttf"; sourceTree = "<group>"; };
+		6783CB6E265B205D001A4CAE /* OriginTech personal use.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OriginTech personal use.ttf"; path = "TMBoard/OriginTech personal use.ttf"; sourceTree = "<group>"; };
+		6783CB72265B2AE8001A4CAE /* Aquino-Demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aquino-Demo.ttf"; path = "TMBoard/Aquino-Demo.ttf"; sourceTree = "<group>"; };
 		67932F9F264A2D7700AB40EA /* TMBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67932FA2264A2D7700AB40EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67932FA4264A2D7700AB40EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +125,8 @@
 		67932F96264A2D7600AB40EA = {
 			isa = PBXGroup;
 			children = (
+				6783CB72265B2AE8001A4CAE /* Aquino-Demo.ttf */,
+				6783CB6E265B205D001A4CAE /* OriginTech personal use.ttf */,
 				67932FA1264A2D7700AB40EA /* TMBoard */,
 				67932FB8264A2D7900AB40EA /* TMBoardTests */,
 				67932FC3264A2D7900AB40EA /* TMBoardUITests */,
@@ -137,6 +149,10 @@
 		67932FA1264A2D7700AB40EA /* TMBoard */ = {
 			isa = PBXGroup;
 			children = (
+				6783CB69265B1D45001A4CAE /* Aquino-Demo.ttf */,
+				6783CB64265B1C6C001A4CAE /* OriginTech personal use.ttf */,
+				6783CB5F265B1C0D001A4CAE /* MADE Evolve Sans Light (PERSONAL USE).otf */,
+				6783CB5A265B173B001A4CAE /* Tourner.ttf */,
 				6783CB55265AD698001A4CAE /* ewDudeWtf.mp3 */,
 				6783CB4D265AD518001A4CAE /* squat680.mp3 */,
 				676DBC9426534880002D9A8A /* walkman.mp3 */,
@@ -317,6 +333,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6783CB6A265B1D45001A4CAE /* Aquino-Demo.ttf in Resources */,
+				6783CB65265B1C6C001A4CAE /* OriginTech personal use.ttf in Resources */,
+				6783CB60265B1C0D001A4CAE /* MADE Evolve Sans Light (PERSONAL USE).otf in Resources */,
 				67932FAF264A2D7900AB40EA /* LaunchScreen.storyboard in Resources */,
 				6783CB56265AD698001A4CAE /* ewDudeWtf.mp3 in Resources */,
 				676DBC9526534880002D9A8A /* walkman.mp3 in Resources */,
@@ -327,6 +346,7 @@
 				67932FAC264A2D7900AB40EA /* Assets.xcassets in Resources */,
 				676F435C264E124900BCC21E /* iLikeDudesAlot.mp3 in Resources */,
 				67932FAA264A2D7700AB40EA /* Main.storyboard in Resources */,
+				6783CB5B265B173B001A4CAE /* Tourner.ttf in Resources */,
 				676DBC862651FFDB002D9A8A /* cuttingMeat.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
