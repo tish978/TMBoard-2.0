@@ -23,6 +23,10 @@
 		6783CB60265B1C0D001A4CAE /* MADE Evolve Sans Light (PERSONAL USE).otf in Resources */ = {isa = PBXBuildFile; fileRef = 6783CB5F265B1C0D001A4CAE /* MADE Evolve Sans Light (PERSONAL USE).otf */; };
 		6783CB65265B1C6C001A4CAE /* OriginTech personal use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6783CB64265B1C6C001A4CAE /* OriginTech personal use.ttf */; };
 		6783CB6A265B1D45001A4CAE /* Aquino-Demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6783CB69265B1D45001A4CAE /* Aquino-Demo.ttf */; };
+		6783CB77265C93F0001A4CAE /* imANiceGuy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6783CB76265C93F0001A4CAE /* imANiceGuy.mp3 */; };
+		6783CB7C265C94C9001A4CAE /* roastingFan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6783CB7B265C94C9001A4CAE /* roastingFan.mp3 */; };
+		6783CB81265C9609001A4CAE /* nicLevels.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6783CB80265C9609001A4CAE /* nicLevels.mp3 */; };
+		6783CB86265C96C7001A4CAE /* callMeSugar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6783CB85265C96C7001A4CAE /* callMeSugar.mp3 */; };
 		67932FA3264A2D7700AB40EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67932FA2264A2D7700AB40EA /* AppDelegate.swift */; };
 		67932FA5264A2D7700AB40EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67932FA4264A2D7700AB40EA /* SceneDelegate.swift */; };
 		67932FA7264A2D7700AB40EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67932FA6264A2D7700AB40EA /* ViewController.swift */; };
@@ -69,6 +73,10 @@
 		6783CB69265B1D45001A4CAE /* Aquino-Demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aquino-Demo.ttf"; sourceTree = "<group>"; };
 		6783CB6E265B205D001A4CAE /* OriginTech personal use.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OriginTech personal use.ttf"; path = "TMBoard/OriginTech personal use.ttf"; sourceTree = "<group>"; };
 		6783CB72265B2AE8001A4CAE /* Aquino-Demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aquino-Demo.ttf"; path = "TMBoard/Aquino-Demo.ttf"; sourceTree = "<group>"; };
+		6783CB76265C93F0001A4CAE /* imANiceGuy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = imANiceGuy.mp3; sourceTree = "<group>"; };
+		6783CB7B265C94C9001A4CAE /* roastingFan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = roastingFan.mp3; sourceTree = "<group>"; };
+		6783CB80265C9609001A4CAE /* nicLevels.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nicLevels.mp3; sourceTree = "<group>"; };
+		6783CB85265C96C7001A4CAE /* callMeSugar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = callMeSugar.mp3; sourceTree = "<group>"; };
 		67932F9F264A2D7700AB40EA /* TMBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67932FA2264A2D7700AB40EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67932FA4264A2D7700AB40EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +157,10 @@
 		67932FA1264A2D7700AB40EA /* TMBoard */ = {
 			isa = PBXGroup;
 			children = (
+				6783CB85265C96C7001A4CAE /* callMeSugar.mp3 */,
+				6783CB80265C9609001A4CAE /* nicLevels.mp3 */,
+				6783CB76265C93F0001A4CAE /* imANiceGuy.mp3 */,
+				6783CB7B265C94C9001A4CAE /* roastingFan.mp3 */,
 				6783CB69265B1D45001A4CAE /* Aquino-Demo.ttf */,
 				6783CB64265B1C6C001A4CAE /* OriginTech personal use.ttf */,
 				6783CB5F265B1C0D001A4CAE /* MADE Evolve Sans Light (PERSONAL USE).otf */,
@@ -340,7 +352,10 @@
 				6783CB56265AD698001A4CAE /* ewDudeWtf.mp3 in Resources */,
 				676DBC9526534880002D9A8A /* walkman.mp3 in Resources */,
 				676DBC9026534807002D9A8A /* homeScreenTMG.mp4 in Resources */,
+				6783CB7C265C94C9001A4CAE /* roastingFan.mp3 in Resources */,
+				6783CB77265C93F0001A4CAE /* imANiceGuy.mp3 in Resources */,
 				676DBC8B265344A6002D9A8A /* tinyMeatBoardLogo.png in Resources */,
+				6783CB81265C9609001A4CAE /* nicLevels.mp3 in Resources */,
 				6783CB4E265AD518001A4CAE /* squat680.mp3 in Resources */,
 				676F4352264CC14600BCC21E /* buckleYourSeatbelt.mp3 in Resources */,
 				67932FAC264A2D7900AB40EA /* Assets.xcassets in Resources */,
@@ -348,6 +363,7 @@
 				67932FAA264A2D7700AB40EA /* Main.storyboard in Resources */,
 				6783CB5B265B173B001A4CAE /* Tourner.ttf in Resources */,
 				676DBC862651FFDB002D9A8A /* cuttingMeat.mp4 in Resources */,
+				6783CB86265C96C7001A4CAE /* callMeSugar.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

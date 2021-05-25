@@ -114,6 +114,78 @@ class TMBoard: UIViewController, CAAnimationDelegate {
         return v
     }()
     
+    let fifthButton: UIView = {
+        let v = UIView(frame: CGRect(x: 0, y: 100, width: 320, height: 200))
+        v.translatesAutoresizingMaskIntoConstraints = false
+        v.layer.borderColor = #colorLiteral(red: 0.9764705882, green: 0.9647058824, blue: 0.9764705882, alpha: 1)
+        v.layer.borderWidth = 2
+        let gradient = CAGradientLayer()
+        gradient.colors = [UIColor.white.cgColor, UIColor.gray.cgColor]
+        gradient.startPoint = CGPoint(x: 0.0, y: 0.0)
+        gradient.endPoint = CGPoint(x: 1.0, y: 1.0)
+        gradient.frame = v.bounds
+        v.layer.addSublayer(gradient)
+        v.clipsToBounds = true
+        v.layer.cornerRadius = 12
+        v.isHidden = false
+        v.isUserInteractionEnabled = true
+        return v
+    }()
+    
+    let sixthButton: UIView = {
+        let v = UIView(frame: CGRect(x: 0, y: 100, width: 320, height: 200))
+        v.translatesAutoresizingMaskIntoConstraints = false
+        v.layer.borderColor = #colorLiteral(red: 0.9764705882, green: 0.9647058824, blue: 0.9764705882, alpha: 1)
+        v.layer.borderWidth = 2
+        let gradient = CAGradientLayer()
+        gradient.colors = [UIColor.white.cgColor, UIColor.gray.cgColor]
+        gradient.startPoint = CGPoint(x: 0.0, y: 0.0)
+        gradient.endPoint = CGPoint(x: 1.0, y: 1.0)
+        gradient.frame = v.bounds
+        v.layer.addSublayer(gradient)
+        v.clipsToBounds = true
+        v.layer.cornerRadius = 12
+        v.isHidden = false
+        v.isUserInteractionEnabled = true
+        return v
+    }()
+    
+    let seventhButton: UIView = {
+        let v = UIView(frame: CGRect(x: 0, y: 100, width: 320, height: 200))
+        v.translatesAutoresizingMaskIntoConstraints = false
+        v.layer.borderColor = #colorLiteral(red: 0.9764705882, green: 0.9647058824, blue: 0.9764705882, alpha: 1)
+        v.layer.borderWidth = 2
+        let gradient = CAGradientLayer()
+        gradient.colors = [UIColor.white.cgColor, UIColor.gray.cgColor]
+        gradient.startPoint = CGPoint(x: 0.0, y: 0.0)
+        gradient.endPoint = CGPoint(x: 1.0, y: 1.0)
+        gradient.frame = v.bounds
+        v.layer.addSublayer(gradient)
+        v.clipsToBounds = true
+        v.layer.cornerRadius = 12
+        v.isHidden = false
+        v.isUserInteractionEnabled = true
+        return v
+    }()
+    
+    let eighthButton: UIView = {
+        let v = UIView(frame: CGRect(x: 0, y: 100, width: 320, height: 200))
+        v.translatesAutoresizingMaskIntoConstraints = false
+        v.layer.borderColor = #colorLiteral(red: 0.9764705882, green: 0.9647058824, blue: 0.9764705882, alpha: 1)
+        v.layer.borderWidth = 2
+        let gradient = CAGradientLayer()
+        gradient.colors = [UIColor.white.cgColor, UIColor.gray.cgColor]
+        gradient.startPoint = CGPoint(x: 0.0, y: 0.0)
+        gradient.endPoint = CGPoint(x: 1.0, y: 1.0)
+        gradient.frame = v.bounds
+        v.layer.addSublayer(gradient)
+        v.clipsToBounds = true
+        v.layer.cornerRadius = 12
+        v.isHidden = false
+        v.isUserInteractionEnabled = true
+        return v
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         playHomeVideo()
@@ -165,8 +237,16 @@ class TMBoard: UIViewController, CAAnimationDelegate {
         buttonOne.center = view.center
         thirdButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(squat680)))
         fourthButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(ewDudeWtf)))
+        fifthButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(imANiceGuy)))
+        sixthButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(roastingFan)))
+        seventhButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(nicLevels)))
+        eighthButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(callMeSugar)))
         view.addSubview(fourthButton)
         view.addSubview(thirdButton)
+        view.addSubview(fifthButton)
+        view.addSubview(sixthButton)
+        view.addSubview(seventhButton)
+        view.addSubview(eighthButton)
         
         
         filterBackgroundView.topAnchor.constraint(equalTo: view.topAnchor, constant: 100).isActive = true
@@ -190,6 +270,151 @@ class TMBoard: UIViewController, CAAnimationDelegate {
         fourthButton.heightAnchor.constraint(equalToConstant: 150).isActive = true
         fourthButton.widthAnchor.constraint(equalToConstant: 165).isActive = true
         
+        fifthButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 450).isActive = true
+        fifthButton.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 30).isActive = true
+        fifthButton.heightAnchor.constraint(equalToConstant: 150).isActive = true
+        fifthButton.widthAnchor.constraint(equalToConstant: 165).isActive = true
+        
+        sixthButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 450).isActive = true
+        sixthButton.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 220).isActive = true
+        sixthButton.heightAnchor.constraint(equalToConstant: 150).isActive = true
+        sixthButton.widthAnchor.constraint(equalToConstant: 165).isActive = true
+        
+        seventhButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 625).isActive = true
+        seventhButton.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 30).isActive = true
+        seventhButton.heightAnchor.constraint(equalToConstant: 150).isActive = true
+        seventhButton.widthAnchor.constraint(equalToConstant: 165).isActive = true
+        
+        eighthButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 625).isActive = true
+        eighthButton.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 220).isActive = true
+        eighthButton.heightAnchor.constraint(equalToConstant: 150).isActive = true
+        eighthButton.widthAnchor.constraint(equalToConstant: 165).isActive = true
+        
+    }
+    
+    @objc private func callMeSugar(){
+        if let player = player, player.isPlaying{
+            // stop playback
+        } else {
+            // setup player and play
+            let urlString = Bundle.main.path(forResource: "callMeSugar", ofType: "mp3")
+            
+            do {
+                try AVAudioSession.sharedInstance().setMode(.default)
+                try AVAudioSession.sharedInstance().setActive(true, options: .notifyOthersOnDeactivation)
+                
+                guard let urlString = urlString else{
+                    return
+                }
+                
+                player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: urlString))
+                
+                guard let player = player else{
+                    return
+                }
+                
+                player.play()
+            
+            } catch {
+                print("something went wrong")
+            }
+        }
+        
+        print("Attempting to animate stroke")
+    }
+    
+    
+    @objc private func nicLevels(){
+        if let player = player, player.isPlaying{
+            // stop playback
+        } else {
+            // setup player and play
+            let urlString = Bundle.main.path(forResource: "nicLevels", ofType: "mp3")
+            
+            do {
+                try AVAudioSession.sharedInstance().setMode(.default)
+                try AVAudioSession.sharedInstance().setActive(true, options: .notifyOthersOnDeactivation)
+                
+                guard let urlString = urlString else{
+                    return
+                }
+                
+                player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: urlString))
+                
+                guard let player = player else{
+                    return
+                }
+                
+                player.play()
+            
+            } catch {
+                print("something went wrong")
+            }
+        }
+        
+        print("Attempting to animate stroke")
+    }
+    
+    @objc private func roastingFan(){
+        if let player = player, player.isPlaying{
+            // stop playback
+        } else {
+            // setup player and play
+            let urlString = Bundle.main.path(forResource: "roastingFan", ofType: "mp3")
+            
+            do {
+                try AVAudioSession.sharedInstance().setMode(.default)
+                try AVAudioSession.sharedInstance().setActive(true, options: .notifyOthersOnDeactivation)
+                
+                guard let urlString = urlString else{
+                    return
+                }
+                
+                player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: urlString))
+                
+                guard let player = player else{
+                    return
+                }
+                
+                player.play()
+            
+            } catch {
+                print("something went wrong")
+            }
+        }
+        
+        print("Attempting to animate stroke")
+    }
+    
+    @objc private func imANiceGuy(){
+        if let player = player, player.isPlaying{
+            // stop playback
+        } else {
+            // setup player and play
+            let urlString = Bundle.main.path(forResource: "imANiceGuy", ofType: "mp3")
+            
+            do {
+                try AVAudioSession.sharedInstance().setMode(.default)
+                try AVAudioSession.sharedInstance().setActive(true, options: .notifyOthersOnDeactivation)
+                
+                guard let urlString = urlString else{
+                    return
+                }
+                
+                player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: urlString))
+                
+                guard let player = player else{
+                    return
+                }
+                
+                player.play()
+            
+            } catch {
+                print("something went wrong")
+            }
+        }
+        
+        print("Attempting to animate stroke")
     }
     
     
